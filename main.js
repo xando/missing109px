@@ -28,8 +28,8 @@ $(function(){
 	});
 
 	var myOptions = {
-	    center: new google.maps.LatLng(33.5, -5),
-	    zoom: 7,
+	    center: new google.maps.LatLng(0,0),
+	    zoom: 3,
 	    minZoom: 2,
 	    streetViewControl: false,
 	    mapTypeControl: false,
