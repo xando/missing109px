@@ -1,7 +1,7 @@
 $(function(){
     var repeatOnXAxis = false;
     var blankTilePath = false;
-    var maxZoom = 6;
+    var maxZoom = 7;
 
 
     window.onload = function() {
@@ -28,7 +28,7 @@ $(function(){
 	});
 
 	var myOptions = {
-	    center: new google.maps.LatLng(30, 2),
+	    center: new google.maps.LatLng(33.5, -5),
 	    zoom: 7,
 	    minZoom: 2,
 	    streetViewControl: false,
